@@ -1,0 +1,271 @@
+/* Eléments principaux de la page */ 
+body
+{
+    margin: auto;
+    background-color: #C0C0C0;
+    
+}
+
+
+header{
+    width: 100%;
+    background-color: #0569A2;
+    color: white;
+}
+
+#burger, #photo, h1{
+    display:inline;
+    margin-left:15px;
+    margin-top:20px;
+}
+
+#burger{
+    width: 20%;
+}
+
+#photo{
+    width:50px;  
+    border-radius:25px;
+}
+
+section{
+    display: flex;
+}
+
+h1{
+    vertical-align: 15px;
+}
+
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    margin-left: -30px;
+}
+
+#menu{
+    display: inline-block;
+    width: 80px;
+    background-color: #778899;
+    height: 900px;
+}
+
+
+.icone{
+    width:50px;  
+    margin-top:110px;
+}
+
+aside{
+    position: relative;
+}
+
+#compétences{
+    width:auto;
+    margin-left: 450px;
+    margin-top: 200px;
+}
+
+#note{  
+    margin-left: 401px;
+    margin-top: -225px;
+}
+
+
+.barre{	
+    list-style:none;
+    width:5px;
+    height: 30px;
+    text-align:center;
+    border:1px solid black;
+    background-color:royalblue;
+}
+
+.liste{
+    margin-right:40px;
+}
+
+#expériences{
+    border:1px double;
+    border-radius:25px;
+    padding:3px;
+    width: 200px;
+    height: 250px;
+    margin-left: 100px;
+}
+
+#Projetpro{
+    border:1px double;
+    border-radius:25px;
+    padding:3px;
+    width: 400px;
+    height: 600px;
+    margin-left: 100px;
+
+}
+
+#projetprofesio{
+    background-color: #A5B6BF;
+    text-align: center;
+    font-size: 20px;
+    border:1px double;
+    border-radius:25px;
+    padding:3px;
+}
+
+#Projetperso{
+    border:1px double;
+    padding:3px;
+    margin-left: 600px;
+    border-radius:25px;
+    width: 400px;
+    height: 600px;
+}
+
+#photoprojet{
+    width:200px;  
+    border-radius:25px;
+}
+
+#scolarité{
+    border:1px double;
+    padding:3px;
+    margin-left: 600px;
+    border-radius:25px;
+    width: 200px;
+    height: 250px;
+}
+
+#compétences2{
+    width:auto;
+    margin-left: -1000px;
+    margin-top: 450px;
+}
+
+h2{
+    text-align: center;
+}
+
+
+#rubrique{
+    border:1px double;
+    border-radius:25px;
+    padding:3px;
+    width: 200px;
+    height: 400px;
+    margin-left: 200px;
+    margin-top: 450px;
+}
+
+#message{
+    width: 200px;
+    height: 250px;
+    margin-left: 100px;
+}
+
+#trait1{
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: -300px;
+}
+
+#trait{
+    display: block;
+    margin-left: 100px;
+    margin-top: -200px;
+}
+
+#contact{
+    margin-left: 650px;
+    margin-top: -450px;
+}
+
+
+#modifcvsimple,#modifcvdetail{
+    background-color: #778899;
+    border-radius:25px;
+    margin-left: 250px;
+    margin-top: 150px;
+    width: 200px;
+    height: 250px;
+}
+
+#modifprojet{
+    background-color: #778899;
+    border-radius:25px;
+    margin-left: -425px;
+    margin-top: 350px;
+    width: 200px;
+    height: 250px;
+}
+
+#modifcontact{
+    background-color: #778899;
+    border-radius:25px;
+    margin-left: 250px;
+    margin-top: 350px;
+    width: 200px;
+    height: 250px;
+}
+
+#ajoutecompte, #bloc_page_connexion{
+    text-align: center;
+    width: 200px;
+    margin-top: 350px; 
+    margin-left: 800px;
+    border:1px double;
+    border-radius:25px;
+    padding:3px;
+    
+}
+
+
+/*-----------------essaye popup----------------------*/
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    bottom: 23px;
+    right: 28px;
+    width: 200px;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+
+
+.détailmenu{
+    display: none;
+}
+
+.menuclick{
+    background-color: #0569A2;
+    border: none;
+}
+
+#deco{
+
+    width: 10px;
+    margin-top: -100px;
+    margin-left: 1700px
+}
